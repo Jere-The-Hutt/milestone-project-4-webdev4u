@@ -1,0 +1,12 @@
+@"
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+.env
+media/
+staticfiles/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
